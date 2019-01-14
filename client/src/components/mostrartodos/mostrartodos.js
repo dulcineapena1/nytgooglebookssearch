@@ -1,13 +1,13 @@
 import React from "react";
 import {Borrar} from "./botonborrarenDB"
 import {Ver} from "./botonver"
-
+import "../agregar/agregar.css";
 
 
 function MostrarTodos(props) {
   return (
 
-    <div className="card">
+    <div className="cardo">
         <img className="card-img-top" src={props.image} alt={props.title}/>
         <div className="card-body">
             <h5 className="card-title">{props.title}</h5>

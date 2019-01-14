@@ -1,4 +1,52 @@
+.view-btn{
+    background-color: lightslategray;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+.borrar-btn{
+    background-color: red;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
 .nav{
     background-color: black;
     color: white;
+}
+
+nav{
+    background-color: white;
+    font-weight: bold;
+    color:blue;
+    height: 50px;
+    display: block;
+}
+
+.navbar-brand{
+    margin: auto;
+}
+
+.navbar{
+    margin-top: 50px;
+}
+
+.divnav{
+    height: 194px;
+}
+
+h2{
+    color:grey;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: lighter;
 }

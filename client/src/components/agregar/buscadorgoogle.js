@@ -5,11 +5,11 @@ import "./agregar.css";
 export const Buscadorgoogle = props => {
   return (
 
-    <form>
+    <form id="formbuscador">
       <div className="form-group">
           <input type="name" {...props} className="form-control" id="buscador" placeholder="Search a book"/>
       </div>
-      <button onClick={props.buscarGoogleBook2} className="btn btn-primary">Search</button>
+      <button id="search-button" onClick={props.buscarGoogleBook2} className="btn btn-primary">Search</button>
     </form>
 
   );

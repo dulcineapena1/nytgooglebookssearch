@@ -6,7 +6,7 @@ import {Ver} from "../../components/mostrartodos/botonver"
 function Agregar(props) {
   return (
 
-    <div className="card">
+    <div className="cardo">
         <img className="card-img-top" src={props.image} alt={props.title}/>
         <div className="card-body">
             <h5 className="card-title">{props.title}</h5>

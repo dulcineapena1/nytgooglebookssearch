@@ -3,6 +3,8 @@ import Agregar from "../../components/agregar";
 import {Fichas} from "../../components/mostrartodos/fichas";
 import {Buscadorgoogle} from "../../components/agregar/buscadorgoogle"
 import API from "../../utils/API";
+import "../../components/mostrartodos/mostrartodos.css";
+
 
 
 class Search extends Component {
@@ -94,7 +96,7 @@ class Search extends Component {
                         ))}
                     </Fichas>
                 ):(
-                    <h2 >No books searched</h2>
+                    <h2 >No books searched yet</h2>
                 )}
             
             </div>

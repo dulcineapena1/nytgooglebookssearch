@@ -1,5 +1,5 @@
 import React from "react";
-import "./mostrartodos";
+import "./mostrartodos.css";
 
 
 export const Borrar = props => {

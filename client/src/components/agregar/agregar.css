@@ -1,18 +1,79 @@
-.guardar-btn{
-    width: 30%;
-    font-size: 20px;
-    color: #e74944;
-}
+
 
 .card{
-    display: inline-table !important;
+    display: block !important; 
     margin-right: 40% !important;  
-    width: 100% !important; 
+    width: 300% !important; 
     float: left !important; 
     border: none !important;
     margin-bottom: 10px !important;
+    max-width: 20000px !important;
+}
+.cardo{
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+   
+}
+
+.card-img-top{
+    width: 15%;
+    float: left;
+    max-height: 300px;
+    height: 60%;
+    margin-right: 2%;
+    margin-bottom: 2%;  
+    margin-top: 5%;
+    display: block;
+    padding: 0;
+
+}
+
+
+.card-deck{
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+   
+    
 }
 
 .card-body{
     background-color: lightcyan;
+    height: auto;
+    padding: 5%;
+    min-height: 400px;
+}
+
+.card-title{
+    font-style: italic;
+}
+
+#buscador{
+    width: 70%;
+    margin: auto;
+    font-style: italic;
+  
+}
+
+#search-button{
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#formbuscador{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#botonguardardb{
+    background-color: lightslategray;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    margin-left: 1%;
+    cursor: pointer;
 }

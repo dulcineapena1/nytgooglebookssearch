@@ -1,12 +1,12 @@
 import React from "react";
-import "./mostrartodos";
+import "./mostrartodos.css";
 
 
 export const Ver = props => {
   return (
    
     <button className="view-btn" {...props} >
-      View
+      VIEW
     </button>
   );
 }
