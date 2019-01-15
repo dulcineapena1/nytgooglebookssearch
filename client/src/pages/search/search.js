@@ -37,16 +37,7 @@ class Search extends Component {
     submitBook = elegido => {
         //Este "id" es el que pasé como prop y argumento desde el componente del botón, puede ser otra palabra,
         //ya que sólo sirve para poder obtener el dato de "onClick"
-  
         console.log("elegido es:",elegido);
-        // this.setState({
-        //     title: title, // El primer elemento es el state y el segundo lo que está abajo en el componente
-        //     authors: authors,
-        //     description: description,
-        //     image: image,
-        //     link: link
-        //     }, 
-        //     ()=> {
                 API.saveBook({
                     title:  elegido.title,
                     authors: elegido.authors,
@@ -56,8 +47,6 @@ class Search extends Component {
                 })
                 .then(res => this.setState({ booksguardados: res.data }))
                 .catch(err => console.log(err,"este"))
-            // })
-
     };
 
     viewBook = linkeado => {
@@ -89,9 +78,8 @@ class Search extends Component {
                                 authors={noguardados.volumeInfo.authors}
                                 image={noguardados.volumeInfo.imageLinks.smallThumbnail }
                                 link={noguardados.volumeInfo.infoLink}
-                                submitBook={this.submitBook} //Botón para guardar en database
-                                viewBook={this.viewBook}            
-                                //Este es el botónguardarenDB, que está dentro del componente Agregar. Pasarlo como prop me permite acceder a las props hermanas al momento de dar click
+                                submitBook={this.submitBook} //Botón para guardar en database. Pasarlo como prop me permite acceder a las props hermanas al momento de dar click.
+                                viewBook={this.viewBook} // Botón ver       
                             />
                         ))}
                     </Fichas>

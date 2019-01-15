@@ -42,7 +42,7 @@ _Aditional dependencies_
 
  ## Heroku Deployed version ✒️
 
-* Wait for it!
+* [HerokuVersion](https://pure-escarpment-45412.herokuapp.com/)
 
 ---
 ⌨️ [DulcineaPena1](https://github.com/dulcineapena1) 😊
